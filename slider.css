@@ -1,0 +1,65 @@
+.gallery {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+
+}
+
+.gallery .buttons {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 90%;
+    top: 50%;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.gallery a {
+    text-decoration: none;
+    color: black;
+}
+
+.gallery a:hover {
+    color: #4d4d4d;
+}
+
+.gallery .photos {
+    position: relative;
+    height: 400px;
+    height: 600px;
+    top: 5px;
+}
+
+.gallery .block {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.gallery .block.active {
+    opacity: 1;
+}
+
+.block-1 {
+    background: lightcoral;
+    width: 50%;
+}
+
+.block-2 {
+    background: teal;
+}
+
+.block-3 {
+    background: orchid;
+}
+
+.block-4 {
+    background: lavender;
+}
+

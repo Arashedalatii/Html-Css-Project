@@ -1,0 +1,591 @@
+* {
+    margin: 0;
+    direction: rtl;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/IRANSansWeb.eot');
+    src: url('../fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('../fonts/IRANSansWeb.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/IRANSansWeb.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IranSansBold;
+    font-weight: bold;
+    src: url('../fonts/IRANSans_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IranSansBlack;
+    font-weight: bold;
+    src: url('../fonts/IRANSans_Black.ttf') format('truetype');
+}
+
+input,
+button,
+select,
+option {
+    font-family: IranSans;
+}
+
+body {
+    background: linear-gradient(180deg, #fff, #f4f2f9);
+    font-family: IranSans;
+}
+
+
+.navigation {
+    border: 1px solid white;
+    background-color: white;
+    height: 90px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+
+}
+
+
+.img-logo {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-f {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    font-style: bold;
+    font-size: 20px;
+
+}
+
+.color {
+    color: black;
+}
+
+.in-nav {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #D1D5DB;
+    border-color: #D1D5DB;
+    font-size: 15px;
+
+
+}
+
+.container {
+    background-color: #226578;
+    min-height: 90vh;
+
+}
+
+a:hover {
+    color: #226578;
+}
+
+/* main start */
+.img-h1 {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 90px;
+    margin-top: 50px;
+
+
+
+
+}
+
+.frist-imgm {
+    display: flex;
+    justify-content: end;
+}
+
+.text-1 {
+    font-size: 30px;
+    color: #5095A7;
+    position: absolute;
+    top: 13%;
+    right: 31%;
+    padding: 30px;
+    font-weight: bolder;
+
+
+}
+
+.p1 {
+    position: absolute;
+    right: 36%;
+    top: 13%;
+    padding: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.call-main {
+    position: absolute;
+    font-size: 38px;
+    right: 25%;
+    padding: 140px;
+    display: flex;
+    gap: 70px;
+    top: 12%;
+
+}
+
+.bot1 {
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    background-color: #ca8a04;
+
+}
+
+.but1 {
+    position: absolute;
+    padding: 50px;
+    right: 33%;
+}
+
+.container-v {
+    border: 1px solid #1B5E6F;
+    background-color: #1B5E6F;
+    border-radius: 20px;
+    width: 97.4%;
+    height: 100px;
+    margin: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px;
+
+}
+
+.nav-vv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 170px;
+    font-size: 26px;
+
+
+}
+
+.border-main {
+    border: 1px solid #1B5E6F;
+    background-color: #1B5E6F;
+    border-radius: 15px;
+    margin: 19px;
+    width: 99.9;
+    height: 550px;
+    box-shadow: 5px 5px 20px;
+}
+
+.mahsolat {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+
+}
+
+.mah-1 {
+    border: 1px solid #9ca3af;
+    background-color: #9ca3af;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    transition: transform .8s;
+    /* bozorg shodan icon mahsolat */
+
+
+}
+
+.mah-1:hover {
+    transform: scale(1.2);
+}
+
+.img-mahsol1 {
+    width: 330px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 2px;
+
+
+}
+
+.img-mahsol2 {
+    width: 330px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 2px;
+}
+
+.border-min2 {
+    border: 1px solid #1B5E6F;
+    background-color: #1B5E6F;
+    border-radius: 15px;
+    margin: 19px;
+    width: 99.9;
+    height: 400px;
+    box-shadow: 5px 5px 20px;
+}
+
+.mahsolat2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px;
+    gap: 20px;
+
+}
+
+.mah-2 {
+    border: 1px solid #9ca3af;
+    background-color: #9ca3af;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 400px;
+    transition: transform .8s;
+    /* bozorg shodan icon mahsolat */
+
+}
+
+.mah-2:hover {
+    transform: scale(1.5);
+}
+
+.img-mahsol3 {
+    width: 150px;
+    margin: 20px;
+    padding: 7px;
+
+
+}
+
+.bot-2 {
+    border-color: #9ca3af;
+    background-color: #9ca3af;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 20px;
+    margin-top: 28px;
+    border-style: none;
+    box-shadow: 5px 5px 10px;
+}
+
+.img-mahsol4 {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 28px;
+    margin-top: 70px;
+}
+
+.bot-3 {
+    border-color: #9ca3af;
+    background-color: #9ca3af;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 24px;
+    margin-top: 65px;
+    border-style: none;
+    box-shadow: 5px 5px 10px;
+}
+
+.img-mahsol5 {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 28px;
+    margin-top: 70px;
+}
+
+.bot-4 {
+    border-color: #9ca3af;
+    background-color: #9ca3af;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 24px;
+    margin-top: 59px;
+    border-style: none;
+    box-shadow: 5px 5px 10px;
+}
+
+.img-mahsol6 {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 19px;
+    border-radius: 200px;
+}
+
+.bot-5 {
+    border-color: #9ca3af;
+    background-color: #9ca3af;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 24px;
+    margin-top: 12px;
+    border-style: none;
+    box-shadow: 5px 5px 10px;
+}
+
+.img-mahsol7 {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 19px;
+    border-radius: 200px;
+}
+
+.bot-6 {
+    border-color: #9ca3af;
+    background-color: #9ca3af;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 24px;
+    margin-top: 18px;
+    border-style: none;
+    box-shadow: 5px 5px 10px;
+}
+
+.img-mahsol8 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    margin-top: 24px;
+    border-radius: 200px;
+}
+
+.bot-7 {
+    border-color: #9ca3af;
+    background-color: #9ca3af;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 24px;
+    margin-top: 18px;
+    border-style: none;
+    box-shadow: 5px 5px 10px;
+}
+
+
+
+
+
+.footer-contant {
+    border: 1px solid #FEBE98;
+    width: 99.9%;
+    background-color: #FEBE98;
+    height: 250px;
+}
+
+.fot-li1 {
+    font-size: 40px;
+    color: #5A5A5A;
+    font-weight: bolder;
+}
+
+.text-f1 {
+    font-size: 13px;
+    color: #5A5A5A;
+}
+
+.fot-geniton {
+    position: relative;
+    top: 50px;
+}
+
+.fot-geniton2 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    left: 20%;
+    bottom: 25px;
+}
+
+.border-fot {
+    border: 2px solid #5A5A5A;
+    width: 95%;
+    position: relative;
+    right: 2%;
+    border-radius: 100px;
+    top: 30px;
+}
+
+/* style soalat motedavel */
+.faq-section {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #D1D5DB;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.accordion {
+    display: flex;
+    justify-content: center;
+    background-color: #D1D5DB;
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    width: 50%;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.9s;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px;
+
+
+}
+
+.accordion:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    width: 50%;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.flex-butt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+/* sign uo creat*/
+.container-signup {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    padding: 5%;
+}
+
+.in-1 {
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    width: 500px;
+}
+
+.cancelbtn {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.signupbtn {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #EF8972;
+    color: white;
+
+}
+
+/* ghesmat payani */
+.footer-container {
+    min-height: 100%;
+    width: 100%;
+    background-color: #5A5A5A;
+}
+
+
+.f-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 110px;
+    color: #D1D5DB;
+}
+
+.info {
+    color: #D1D5DB;
+}
+
+.end-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+    direction: rtl;
+    padding-bottom: 50px;
+}
+
+.etehadie {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+    left: 120px;
+
+
+
+
+
+}
+
+.eth {
+    width: 100px;
+    height: 100px;
+
+}
